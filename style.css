@@ -1,0 +1,41 @@
+body {
+    font: sans-serif ;
+    color: rgba(0, 0, 0, .5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    /* height: 100%;
+    width: 100%; */
+    background:bisque;
+
+}
+
+.gradview {
+    background: linear-gradient(0deg, #e66465, #9198e5);
+    width: 100%;
+    min-height: 15em;
+    max-height: 20em;
+}
+
+h1 {
+    font: 600 3.5em sans-serif;
+}
+
+h3 {
+    letter-spacing: 0.01em;
+}
+
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+
+    body {
+        width: 100%;
+        height: fit-content;
+    }
+
+    h1 {
+        font-size: 5em;
+    }
+    h3 {
+        display: inline;
+    }
+}
